@@ -16,6 +16,7 @@ export type TickerSnapshot = {
   changePercent?: number;
   dayVolume?: number;
   previousClose?: number;
+  previousVolume?: number;
   updated?: number;
 };
 

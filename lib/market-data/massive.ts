@@ -176,6 +176,7 @@ export async function getStockSnapshot(symbol: string): Promise<TickerSnapshot> 
     changePercent: ticker.todaysChangePerc,
     dayVolume: ticker.day?.v,
     previousClose: ticker.prevDay?.c,
+    previousVolume: ticker.prevDay?.v,
     updated: ticker.updated,
   };
 

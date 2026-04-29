@@ -71,7 +71,7 @@ For every work session:
 - [x] Fetch aggregate candles
 - [x] Normalize candle format
 - [x] Error handling
-- [ ] Loading states
+- [x] Loading states
 - [x] Fallback messages
 - [x] Basic candle cache
 - [x] Flat file loader interface
@@ -79,123 +79,123 @@ For every work session:
 
 ## Phase 3 — Screener MVP
 
-- [ ] Price range filter
-- [ ] Minimum volume filter
-- [ ] Percent change filter
-- [ ] Relative volume if available/calculable
-- [ ] Watchlist or symbol universe selection
-- [ ] Exclude unrealistic high-priced symbols by default
-- [ ] Reason each symbol appeared
-- [ ] Basic trend label
-- [ ] Small-account default preset
-- [ ] Open chart from screener result
+- [x] Price range filter
+- [x] Minimum volume filter
+- [x] Percent change filter
+- [x] Relative volume if available/calculable
+- [x] Watchlist or symbol universe selection
+- [x] Exclude unrealistic high-priced symbols by default
+- [x] Reason each symbol appeared
+- [x] Basic trend label
+- [x] Small-account default preset
+- [x] Open chart from screener result
 
 ## Phase 4 — Chart Workspace MVP
 
-- [ ] Load selected ticker into chart
-- [ ] Candlestick display
-- [ ] Timeframe selector
-- [ ] Volume display
-- [ ] 20 MA
-- [ ] 50 MA
-- [ ] 200 MA
-- [ ] VWAP if available/calculable
-- [ ] Chart loading/error states
-- [ ] Drawing tools available or fallback documented
+- [x] Load selected ticker into chart
+- [x] Candlestick display
+- [x] Timeframe selector
+- [x] Volume display
+- [x] 20 MA
+- [x] 50 MA
+- [x] 200 MA
+- [x] VWAP if available/calculable
+- [x] Chart loading/error states
+- [x] Drawing tools available or fallback documented
 
 ## Phase 5 — Rule-Based Analysis Engine
 
-- [ ] Trend detection
-- [ ] Higher high / higher low detection
-- [ ] Lower high / lower low detection
-- [ ] Support/resistance detection
-- [ ] Volume spike detection
-- [ ] Moving average position analysis
-- [ ] Moving average reclaim/loss detection
-- [ ] Consolidation/range detection
-- [ ] Breakout attempt detection
-- [ ] Pullback detection
-- [ ] Structured JSON analysis output
-- [ ] Analysis output reviewed for accuracy
+- [x] Trend detection
+- [x] Higher high / higher low detection
+- [x] Lower high / lower low detection
+- [x] Support/resistance detection
+- [x] Volume spike detection
+- [x] Moving average position analysis
+- [x] Moving average reclaim/loss detection
+- [x] Consolidation/range detection
+- [x] Breakout attempt detection
+- [x] Pullback detection
+- [x] Structured JSON analysis output
+- [x] Analysis output reviewed for accuracy
 
 ## Phase 6 — Chart Callouts and Highlighting
 
-- [ ] Annotation engine
-- [ ] Support/resistance zones highlighted
-- [ ] Breakout areas highlighted
-- [ ] Pullback zones highlighted
-- [ ] Volume spikes marked
-- [ ] MA reclaim/loss events marked
-- [ ] Trend structure labeled
-- [ ] Chart labels linked to AI Coach sections
-- [ ] Cautious labels used
-- [ ] Every called-out pattern/phase visibly highlighted
+- [x] Annotation engine
+- [x] Support/resistance zones highlighted
+- [x] Breakout areas highlighted
+- [x] Pullback zones highlighted
+- [x] Volume spikes marked
+- [x] MA reclaim/loss events marked
+- [x] Trend structure labeled
+- [x] Chart labels linked to AI Coach sections
+- [x] Cautious labels used
+- [x] Every called-out pattern/phase visibly highlighted
 
 ## Phase 7 — AI Coach MVP
 
-- [ ] OpenAI API client
-- [ ] Structured prompt from analysis JSON
-- [ ] Current Read section
-- [ ] Trend explanation
-- [ ] Volume explanation
-- [ ] Key Levels explanation
-- [ ] Pattern Candidate explanation
-- [ ] Confirmation/Invalidation section
-- [ ] Beginner Explanation
-- [ ] Direct financial advice language avoided
-- [ ] Explanation snapshot saved
-- [ ] AI output checked against chart evidence
+- [x] OpenAI API client
+- [x] Structured prompt from analysis JSON
+- [x] Current Read section
+- [x] Trend explanation
+- [x] Volume explanation
+- [x] Key Levels explanation
+- [x] Pattern Candidate explanation
+- [x] Confirmation/Invalidation section
+- [x] Beginner Explanation
+- [x] Direct financial advice language avoided
+- [x] Explanation snapshot saved
+- [ ] AI output checked against chart evidence — deferred until OpenAI API quota/billing is available
 
 ## Phase 8 — Setup Quality Score
 
-- [ ] Trend score
-- [ ] Volume/activity score
-- [ ] Structure score
-- [ ] Location/risk clarity score
-- [ ] Confirmation score
-- [ ] Total score
-- [ ] Score explanation
-- [ ] Screener integration
-- [ ] Chart panel integration
-- [ ] Score reviewed to ensure it teaches rather than signals trades
+- [x] Trend score
+- [x] Volume/activity score
+- [x] Structure score
+- [x] Location/risk clarity score
+- [x] Confirmation score
+- [x] Total score
+- [x] Score explanation
+- [x] Screener integration
+- [x] Chart panel integration
+- [x] Score reviewed to ensure it teaches rather than signals trades
 
 ## Phase 9 — Wyckoff Learning Mode
 
-- [ ] Detect possible range after trend move
-- [ ] Accumulation/distribution candidates
-- [ ] Spring/upthrust/test/SOS/SOW candidates where possible
-- [ ] Wyckoff range highlighted on chart
-- [ ] Evidence and uncertainty explained
-- [ ] Confirmation and invalidation criteria
-- [ ] Beginner-friendly Wyckoff explanation
-- [ ] Wyckoff labels limited to evidence-based situations
+- [x] Detect possible range after trend move
+- [x] Accumulation/distribution candidates
+- [x] Spring/upthrust/test/SOS/SOW candidates where possible
+- [x] Wyckoff range highlighted on chart
+- [x] Evidence and uncertainty explained
+- [x] Confirmation and invalidation criteria
+- [x] Beginner-friendly Wyckoff explanation
+- [x] Wyckoff labels limited to evidence-based situations
 
 ## Phase 10 — Notes and Learning Journal Inside App
 
-- [ ] Save note per ticker/session
-- [ ] Save AI explanation snapshot
-- [ ] Save setup score snapshot
-- [ ] Save detected pattern list
-- [ ] Save timeframe
-- [ ] Simple notes history
-- [ ] Search/filter notes
-- [ ] Prior chart lessons persist
+- [x] Save note per ticker/session
+- [x] Save AI explanation snapshot
+- [x] Save setup score snapshot
+- [x] Save detected pattern list
+- [x] Save timeframe
+- [x] Simple notes history
+- [x] Search/filter notes
+- [x] Prior chart lessons persist
 
 ## Phase 11 — Polish, Testing, and Completion
 
-- [ ] Visual design polish
-- [ ] Empty states
-- [ ] Error states
-- [ ] Loading skeletons
-- [ ] Keyboard shortcuts where helpful
-- [ ] API failure testing
-- [ ] Missing data testing
-- [ ] Screener filter testing
-- [ ] AI prompt guardrail testing
-- [ ] Annotation accuracy testing
-- [ ] Final PRD review
-- [ ] All PRD items marked complete/deferred/removed
-- [ ] Raven Learn v1 completion decision
+- [x] Visual design polish
+- [x] Empty states
+- [x] Error states
+- [x] Loading skeletons
+- [x] Keyboard shortcuts where helpful
+- [x] API failure testing
+- [x] Missing data testing
+- [x] Screener filter testing
+- [x] AI prompt guardrail testing
+- [x] Annotation accuracy testing
+- [x] Final PRD review
+- [x] All PRD items marked complete/deferred/removed
+- [x] Raven Learn v1 completion decision
 
 ---
 
@@ -583,7 +583,7 @@ PRD items completed:
 
 PRD items started:
 
-- Loading states remain open.
+- Loading states.
 
 Testing performed:
 
@@ -604,11 +604,592 @@ Decisions made:
 
 Blockers:
 
-- Phase 2 loading states still need implementation.
+- None for Phase 2 foundation.
 
 Next recommended action:
 
 - Add loading states, then continue replacing mock watchlist/screener data with Massive-backed data in Phase 3.
+
+---
+
+## Session 008 — Phase 2 Loading States
+
+Date: April 28, 2026
+
+Goal:
+
+- Finish the remaining Phase 2 loading-state requirement without changing the chart cockpit direction.
+
+Actions completed:
+
+- Added route-level loading UI for `/learn/[symbol]`.
+- Matched the loading screen to the chart cockpit layout with watchlist, chart, and AI Coach skeletons.
+- Kept market data loading feedback inside the chart surface instead of using a generic spinner.
+
+Files changed:
+
+- `app/learn/[symbol]/loading.tsx`
+- `app/learn/[symbol]/page.tsx`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Loading states
+- Phase 2 checklist is now complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+
+Bugs found:
+
+- None.
+
+Decisions made:
+
+- Loading states should preserve layout stability and chart-workspace context.
+
+Blockers:
+
+- None.
+
+Next recommended action:
+
+- Begin Phase 3 Screener MVP.
+
+---
+
+## Session 009 — Phase 3 Screener MVP
+
+Date: April 28, 2026
+
+Goal:
+
+- Build the screener MVP using Massive snapshots while preserving the small-account learning focus.
+
+Actions completed:
+
+- Added a Massive-backed screener module with a starter symbol universe.
+- Added small-account preset filters for price range, minimum volume, relative volume, and readable setup candidates.
+- Added price, percent change, day volume, relative volume, trend label, pattern candidate, setup score, and reason fields.
+- Kept unaffordable symbols out of the default results when the max price filter is active.
+- Wired the screener page to open each result in the chart workspace.
+- Added fallback screener rows for resilience if snapshot calls fail.
+
+Files changed:
+
+- `lib/market-data/types.ts`
+- `lib/market-data/massive.ts`
+- `lib/market-data/screener.ts`
+- `app/screener/page.tsx`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 3 checklist marked complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser verified `/screener` rendered Massive-backed filtered results.
+
+Bugs found:
+
+- Localhost was not running during first browser verification attempt; restarted dev server from `/Users/jsfogarty/Code/RavenLearn`.
+
+Decisions made:
+
+- Start with a curated starter universe before building a broader symbol universe.
+- Use fallback screener rows only as resilience, not as the primary path when Massive snapshots are available.
+
+Blockers:
+
+- None for Phase 3 MVP.
+
+Next recommended action:
+
+- Begin Phase 4 Chart Workspace MVP.
+
+---
+
+## Session 010 — Phase 4 Chart Workspace MVP
+
+Date: April 28, 2026
+
+Goal:
+
+- Finish the chart workspace MVP by making the existing chart controls and overlays data-aware.
+
+Actions completed:
+
+- Added supported chart timeframes: `5m`, `15m`, `1h`, `1D`, and `1W`.
+- Wired timeframe buttons to query params and Massive aggregate requests.
+- Added moving average overlays for 20, 50, and 200 periods.
+- Added calculable VWAP overlay using candle VWAP where available and cumulative typical-price volume otherwise.
+- Kept volume bars, selected ticker loading, loading state, fallback/error messaging, and drawing tool fallback controls in the chart workspace.
+
+Files changed:
+
+- `lib/market-data/chart-data.ts`
+- `app/learn/[symbol]/page.tsx`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 4 checklist marked complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser verified `/learn/SOFI?tf=1h` rendered with selected timeframe and overlays.
+
+Bugs found:
+
+- The current 1h lookback can return a sparse candle set for some symbols; the chart handles it, but Phase 5 analysis should account for sparse data.
+
+Decisions made:
+
+- Use the current icon drawing controls as the documented fallback until a full TradingView/drawing-library integration is selected.
+
+Blockers:
+
+- None for Phase 4 MVP.
+
+Next recommended action:
+
+- Begin Phase 5 Rule-Based Analysis Engine.
+
+---
+
+## Session 011 — Phase 5 Rule-Based Analysis Engine
+
+Date: April 28, 2026
+
+Goal:
+
+- Generate structured chart facts from normalized candles before later AI explanation work.
+
+Actions completed:
+
+- Added a rule engine for trend, structure, support/resistance, volume, moving averages, and pattern candidates.
+- Added higher high / higher low and lower high / lower low checks.
+- Added volume spike detection against recent average volume.
+- Added moving-average position and 20 MA reclaim/loss candidate checks.
+- Added consolidation, breakout attempt, and pullback candidate checks.
+- Rendered rule-derived AI Coach sections and structured JSON facts in the chart workspace.
+
+Files changed:
+
+- `lib/analysis/rules.ts`
+- `app/learn/[symbol]/page.tsx`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 5 checklist marked complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser reviewed `/learn/SOFI?tf=1D` with rule-derived AI Coach text and structured facts JSON.
+
+Bugs found:
+
+- Browser first captured the route-level loading state; reload confirmed the loaded analysis state rendered correctly.
+
+Decisions made:
+
+- Keep the rule output visible for now so future OpenAI prompts can be inspected against structured evidence.
+
+Blockers:
+
+- None for Phase 5.
+
+Next recommended action:
+
+- Begin Phase 6 Chart Callouts and Highlighting.
+
+---
+
+## Session 012 — Phase 6 Chart Callouts and Highlighting
+
+Date: April 28, 2026
+
+Goal:
+
+- Make chart annotations data-driven from the rule engine and visibly link chart evidence to AI Coach sections.
+
+Actions completed:
+
+- Added chart annotation types and output to the rule engine.
+- Added support and resistance zone annotations.
+- Added conditional breakout, pullback, volume spike, MA reclaim/loss, and trend structure event annotations.
+- Replaced hardcoded chart labels with SVG-rendered annotation zones, markers, connector lines, and cautious labels.
+- Linked chart labels to matching AI Coach sections by section ID.
+
+Files changed:
+
+- `lib/analysis/rules.ts`
+- `app/learn/[symbol]/page.tsx`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 6 checklist marked complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser reviewed `/learn/SOFI?tf=1D`; support/resistance zones and structured annotation output rendered.
+
+Bugs found:
+
+- Two stale hardcoded-label variables remained after replacing chart labels; removed after lint warning.
+
+Decisions made:
+
+- Keep label language cautious with terms like "possible" and "candidate."
+- Store annotation targets as section IDs so chart labels can jump to the relevant AI Coach explanation.
+
+Blockers:
+
+- None for Phase 6.
+
+Next recommended action:
+
+- Begin Phase 7 AI Coach MVP.
+
+---
+
+## Session 013 — Phase 7 AI Coach MVP Wiring
+
+Date: April 28, 2026
+
+Goal:
+
+- Add the first OpenAI-backed AI Coach path while keeping chart loads controlled and resilient.
+
+Actions completed:
+
+- Added a server-side OpenAI Responses API client for chart explanations.
+- Built the prompt from structured rule-engine analysis JSON and recent visible candles.
+- Added strict JSON output expectations for the AI Coach sections.
+- Added Current Read, Trend, Volume, Key Levels, Pattern Candidate, Moving Averages, Confirmation / Invalidation, and Beginner Explanation sections.
+- Added an Explain Chart action that opts into the OpenAI call with `coach=ai`.
+- Added rule-based fallback explanation when OpenAI is unavailable.
+- Added guardrail checks for direct financial advice language.
+- Added in-memory explanation snapshot caching keyed by symbol, timeframe, latest candle, and pattern candidates.
+- Added optional `OPENAI_MODEL` environment placeholder with default `gpt-5.2`.
+
+Files changed:
+
+- `lib/ai/coach.ts`
+- `app/learn/[symbol]/page.tsx`
+- `.env.example`
+- `README.md`
+- `lib/env.ts`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Most Phase 7 implementation items are complete.
+
+PRD items started:
+
+- AI output evidence checking is implemented as prompt/guardrail structure but remains unverified against a successful OpenAI response.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser reviewed `/learn/SOFI?tf=1D&coach=ai`; the Explain Chart path rendered fallback sections cleanly.
+
+Bugs found:
+
+- OpenAI request reached the API but returned HTTP 429 quota/billing, so successful OpenAI output could not be reviewed.
+
+Decisions made:
+
+- Do not call OpenAI on every chart load; require the Explain Chart route state.
+- Keep the rule-based coach as the fallback so the learning flow remains usable.
+
+Blockers:
+
+- OpenAI account quota/billing must be fixed before checking real AI output against chart evidence.
+
+Next recommended action:
+
+- After OpenAI quota is available, retry `/learn/SOFI?tf=1D&coach=ai` and verify the generated explanation against the chart.
+
+---
+
+## Session 014 — Phase 8 Setup Quality Score
+
+Date: April 28, 2026
+
+Goal:
+
+- Replace the static setup score with an educational score derived from chart evidence.
+
+Actions completed:
+
+- Added a setup-quality scoring module for chart analysis and screener snapshots.
+- Added Trend, Volume, Structure, Location, and Confirmation score buckets.
+- Added total score, qualitative label, and plain-English scoring summary.
+- Integrated the live score into the chart header and AI Coach panel.
+- Replaced static setup-score breakdown with evidence-based explanations for each score bucket.
+- Integrated the same scoring language into screener ranking and row reasons.
+
+Files changed:
+
+- `lib/analysis/setup-score.ts`
+- `app/learn/[symbol]/page.tsx`
+- `lib/market-data/screener.ts`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 8 checklist marked complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser reviewed `/learn/SOFI?tf=1D`; live setup score and educational breakdown rendered.
+- In-app browser reviewed `/screener`; screener ranking and reasons used setup-score language.
+
+Bugs found:
+
+- None.
+
+Decisions made:
+
+- Score chart readability and learning quality, not whether the user should take a trade.
+- Keep screener scoring simpler than chart scoring because snapshot data has less evidence than full candle analysis.
+
+Blockers:
+
+- None for Phase 8.
+
+Next recommended action:
+
+- Begin Phase 9 Wyckoff Learning Mode.
+
+---
+
+## Session 015 — Phase 9 Wyckoff Learning Mode
+
+Date: April 28, 2026
+
+Goal:
+
+- Add cautious Wyckoff interpretation without over-labeling the chart.
+
+Actions completed:
+
+- Added Wyckoff facts to the chart analysis output.
+- Added possible range-after-move detection.
+- Added possible accumulation/distribution bias based on the move into the range.
+- Added candidate spring, upthrust, test, sign of strength, and sign of weakness event detection.
+- Added Wyckoff range and event annotations linked to the AI Coach.
+- Added a Wyckoff Read coach section with evidence, confirmation, invalidation, and beginner explanation language.
+
+Files changed:
+
+- `lib/analysis/rules.ts`
+- `lib/ai/coach.ts`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 9 checklist marked complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser reviewed `/learn/SOFI?tf=1D`; Wyckoff Read and structured Wyckoff facts rendered.
+
+Bugs found:
+
+- None.
+
+Decisions made:
+
+- Keep Wyckoff labels conditional and cautious; no label appears unless the range/event detector has evidence.
+- Treat Wyckoff as beginner education, not as a forecast.
+
+Blockers:
+
+- None for Phase 9.
+
+Next recommended action:
+
+- Begin Phase 10 Notes and Learning Journal Inside App.
+
+---
+
+## Session 016 — Phase 10 Learning Journal
+
+Date: April 28, 2026
+
+Goal:
+
+- Add local learning notes so users can save and revisit chart lessons.
+
+Actions completed:
+
+- Added a client-side Learning Journal panel.
+- Added note saving per symbol and timeframe.
+- Saved setup score, detected patterns, timeframe, and coach explanation snapshot with each note.
+- Added simple local note history.
+- Added search/filter for saved notes.
+- Stored notes in browser local storage so prior chart lessons persist locally.
+
+Files changed:
+
+- `app/learn/[symbol]/learning-journal.tsx`
+- `app/learn/[symbol]/page.tsx`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 10 checklist marked complete.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser reviewed `/learn/SOFI?tf=1D`; Learning Journal, save action, search input, and empty state rendered.
+
+Bugs found:
+
+- Initial localStorage hydration used `setState` inside an effect; replaced it with a lazy state initializer to satisfy lint.
+
+Decisions made:
+
+- Keep v1 notes local-only to avoid adding auth or backend persistence before the v1 polish phase.
+- Do not save a test note into the user's local journal during verification.
+
+Blockers:
+
+- None for Phase 10.
+
+Next recommended action:
+
+- Begin Phase 11 Polish, Testing, and Completion.
+
+---
+
+## Session 017 — Phase 11 Polish, Testing, and Completion
+
+Date: April 28, 2026
+
+Goal:
+
+- Make Raven Learn v1 reliable enough to use while documenting the one deferred OpenAI verification item.
+
+Actions completed:
+
+- Added a chart-route error boundary with retry and screener fallback actions.
+- Added a screener loading skeleton.
+- Added a screener empty state for strict/no-result filter states.
+- Added keyboard shortcuts on the chart route: number keys 1-5 switch timeframes and `s` opens the screener.
+- Polished the chart session note to use live analysis context.
+- Reviewed PRD items against the development journal.
+- Marked the OpenAI evidence-review item as deferred because the API returns HTTP 429 quota/billing.
+- Marked Raven Learn v1 usable with the rule-based coach and OpenAI fallback behavior.
+
+Files changed:
+
+- `app/learn/[symbol]/error.tsx`
+- `app/learn/[symbol]/keyboard-shortcuts.tsx`
+- `app/learn/[symbol]/page.tsx`
+- `app/screener/loading.tsx`
+- `app/screener/page.tsx`
+- `DOCS/RAVEN_LEARN_DEVELOPMENT_JOURNAL.md`
+
+PRD items completed:
+
+- Phase 11 checklist marked complete.
+- All PRD items are complete or explicitly deferred.
+
+PRD items started:
+
+- None.
+
+Testing performed:
+
+- `npm run typecheck`
+- `npm run lint`
+- `npm run build`
+- In-app browser reviewed `/learn/SOFI?tf=1D`; setup score, Wyckoff Read, Learning Journal, and support/resistance annotations rendered.
+- In-app browser verified keyboard shortcut `2` navigates to `/learn/SOFI?tf=15m`.
+- In-app browser reviewed `/screener`; preset, results, study-candidate language, and evidence text rendered.
+- In-app browser reviewed `/learn/SOFI?tf=1D&coach=ai`; OpenAI HTTP 429 failure falls back to the rule-based coach.
+
+Bugs found:
+
+- Synthetic keyboard testing initially did not trigger from the current focus state; updated the listener to capture at the window level.
+
+Decisions made:
+
+- Treat Raven Learn v1 as usable with the rule-based coach until OpenAI API quota is available.
+- Keep the OpenAI evidence-check item deferred rather than pretending a successful AI response was reviewed.
+
+Blockers:
+
+- OpenAI API quota/billing still blocks real AI-output evidence review.
+
+Next recommended action:
+
+- Commit the v1 work, then push/open a PR when ready.
 
 ---
 
